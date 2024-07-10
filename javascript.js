@@ -64,6 +64,7 @@ function displaybox(articles) {
         box_Card.appendChild(title);
         box_Card.appendChild(des);
         box_Card.addEventListener("click",()=>{
+            //opening full news..
             window.open(article.url,"_blank");
         })
         boxcontent.appendChild(box_Card);
